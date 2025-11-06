@@ -1,65 +1,67 @@
 ﻿# BlockProt
 
-[![CurseForge Downloads](http://cf.way2muchnoise.eu/full_440797_downloads.svg?badge_style=flat)](https://www.curseforge.com/minecraft/bukkit-plugins/blockprot)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/uF5ePKuc?style=flat-square&color=green&label=Downloads&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiBjbGFzcz0idGV4dC1sb2dvIiB3aWR0aD0iMTQyIiBoZWlnaHQ9IjE0MiI+PGc+PHBhdGggZD0iTTE1OS4wNyw4OS4yOUE3MC45NCw3MC45NCwwLDEsMCwyMCw2My41MkgzMkE1OC43OCw1OC43OCwwLDAsMSwxNDUuMjMsNDkuOTNsLTExLjY2LDMuMTJhNDYuNTQsNDYuNTQsMCwwLDAtMjktMjYuNTJsLTIuMTUsMTIuMTNhMzQuMzEsMzQuMzEsMCwwLDEsMi43Nyw2My4yNmwzLjE5LDExLjlhNDYuNTIsNDYuNTIsMCwwLDAsMjguMzMtNDlsMTEuNjItMy4xQTU3Ljk0LDU3Ljk0LDAsMCwxLDE0Ny4yNyw4NVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xOS43OSkiIGZpbGw9IiMxYmQ5NmEiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjxwYXRoIGQ9Ik0xMDguOTIsMTM5LjNBNzAuOTMsNzAuOTMsMCwwLDEsMTkuNzksNzZoMTJhNTkuNDgsNTkuNDgsMCwwLDAsMS43OCw5LjkxLDU4LjczLDU4LjczLDAsMCwwLDMuNjMsOS45MWwxMC42OC02LjQxYTQ2LjU4LDQ2LjU4LDAsMCwxLDQ0LjcyLTY1TDkwLjQzLDM2LjU0QTM0LjM4LDM0LjM4LDAsMCwwLDU3LjM2LDc5Ljc1QzU3LjY3LDgwLjg4LDU4LDgyLDU4LjQzLDgzbDEzLjY2LTguMTlMNjgsNjMuOTNsMTIuOS0xMy4yNSwxNi4zMS0zLjUxTDEwMS45LDUzbC03LjUyLDcuNjEtNi41NSwyLjA2LTQuNjksNC44MiwyLjMsNi4zOHM0LjY0LDQuOTQsNC42NSw0Ljk0bDYuNTctMS43NCw0LjY3LTUuMTMsMTAuMi0zLjI0LDMsNi44NEwxMDQuMDUsODguNDMsODYuNDEsOTRsLTcuOTItOC44MUw2NC43LDkzLjQ4YTM0LjQ0LDM0LjQ0LDAsMCwwLDI4LjcyLDExLjU5TDk2LjYxLDExN0E0Ni42LDQ2LjYsMCwwLDEsNTQuMTMsOTkuODNsLTEwLjY0LDYuMzhhNTguODEsNTguODEsMCwwLDAsOTkuNi05Ljc3bDExLjgsNC4yOUE3MC43Nyw3MC43NywwLDAsMSwxMDguOTIsMTM5LjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTkuNzkpIiBmaWxsPSIjMWJkOTZhIj48L3BhdGg+PC9nPjwvc3ZnPg==)](https://modrinth.com/plugin/blockprot)
-[![Spigot Downloads](https://img.shields.io/spiget/downloads/87829?style=flat-square&color=orange&label=Spigot%20Downloads)](https://www.spigotmc.org/resources/blockprot.87829/)
-[![Spigot Rating](https://img.shields.io/spiget/stars/87829?style=flat-square&color=orange&label=Rating)](https://www.spigotmc.org/resources/blockprot.87829/)
-[![Hangar Downloads](https://img.shields.io/hangar/dt/BlockProt?style=flat-square&label=Hangar%20Downloads)](https://hangar.papermc.io/dei2004/BlockProt)
-[![BlockProt CI](https://img.shields.io/github/actions/workflow/status/dei2004/BlockProt/ci.yml?branch=master&style=flat-square&label=CI)](https://github.com/dei2004/BlockProt)
-[![gitlocalized](https://gitlocalize.com/repo/6775/whole_project/badge.svg)](https://gitlocalize.com/repo/6775)
-[![JitPack](https://img.shields.io/jitpack/version/com.github.dei2004/BlockProt?style=flat-square)](https://jitpack.io/#dei2004/BlockProt)
+[![GitHub Release](https://img.shields.io/github/v/release/dei2004/BlockProt?style=flat-square&label=Latest%20Release)](https://github.com/dei2004/BlockProt/releases)
 
+**BlockProt** is a modern, lightweight Bukkit/Spigot plugin that gives players the ability to protect
+chests, furnaces, and many more blocks. Features a clean GUI interface instead of commands,
+making it easy for any player to use.
 
-[![Servers](https://img.shields.io/bstats/servers/9999?style=flat-square)](https://bstats.org/plugin/bukkit/BlockProt/9999)
-[![Players](https://img.shields.io/bstats/players/9999?style=flat-square)](https://bstats.org/plugin/bukkit/BlockProt/9999)
-[![Discord](https://img.shields.io/discord/860987230453891112?style=flat-square)](https://discord.gg/WVy6DHScFb)
+## ✨ Features
 
-BlockProt is a lightweight Bukkit and Spigot plugin that gives players the ability to protect
-chests, furnaces and many more blocks. The plugin features a modern GUI approach instead of
-commands, so that any player can easily understand how to use all of its features.
+- 🔒 **Block Protection** - Protect chests, furnaces, doors, and more
+- 👥 **Friend System** - Add friends to access your protected blocks
+- 🎮 **GUI Interface** - No commands needed, everything through intuitive menus
+- 🔗 **UltimateTeams Integration** - Automatically sync team members with block permissions
+- 🌐 **Multi-language** - Supports 15+ languages
+- ⚡ **Lightweight** - Minimal performance impact
+- 🔧 **Plugin Integrations** - Works with Towny, WorldGuard, Lands, PlaceholderAPI
 
 ![image1](https://raw.githubusercontent.com/dei2004/BlockProt/master/images/main_menu.png)
 
-## Installing
+## 📥 Installation
 
-To use this plugin, you can simply download it from [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/blockprot),
-[Modrinth](https://modrinth.com/plugin/blockprot) or [SpigotMC](https://www.spigotmc.org/resources/blockprot.87829/)
-and place it in your `plugins` directory. You do not have to install anything else and any recent
-version will work with any recent Minecraft version, as long as you're running Java 17 or higher.
-It runs on any Spigot and any fork thereof and does **not** run on CraftBukkit.
+1. Download the latest release from the [Releases page](https://github.com/dei2004/BlockProt/releases)
+2. Place the `.jar` file in your server's `plugins` directory
+3. Restart your server
+4. Done! No additional dependencies required
 
-To get the latest updates the quickest, you can "watch" or "star" this repository or frequently
-check the [Release tab](https://github.com/dei2004/BlockProt/releases). Alternatively, it is also
-possible to [watch the resource](https://www.spigotmc.org/resources/blockprot.87829/watch) on
-Spigot, which will also notify you as soon as new builds get released.
+**Requirements:**
+- Java 17 or higher
+- Spigot, Paper, or any Spigot fork (1.19.3+)
+- Does **not** run on CraftBukkit
 
----
+## 🔨 Building from Source
 
-If you want to build the plugin from source yourself, you can simply do so by installing JDK 17
-or newer, cloning this repository and running `./mvnw clean package` in the main directory.
-See [BUILD.md](BUILD.md) for more detailed build instructions.
+```bash
+git clone https://github.com/dei2004/BlockProt.git
+cd BlockProt
+./mvnw clean package
+```
 
-## Translating
+The compiled plugin will be in `spigot/target/BlockProt-*.jar`  
+See [BUILD.md](BUILD.md) for detailed build instructions.
 
-If you know a language that isn't supported by this plugin (yet) or found some translation error
-we'd love if you could translate for us!
+## 🌐 Translating
 
-You can do so easily by going to [gitlocalize](https://gitlocalize.com/repo/6775/) or sending me
-the translations on Discord.
+Help us translate BlockProt into your language!
 
-## Contact/Support
+- Contribute via [gitlocalize](https://gitlocalize.com/repo/6775/)
+- Or send translations on [Discord](https://discord.gg/WVy6DHScFb)
 
-If you find bugs or any issues related to this plugin, please report them over on the
-[GitHub issue tracker](https://github.com/dei2004/BlockProt/issues). If you require more support or
-want to ask questions, please use the [Discord server](https://discord.gg/WVy6DHScFb) for chatting.
+**Supported Languages:** English, German, Spanish, French, Italian, Japanese, Korean, Polish, Portuguese (BR), Russian, Slovak, Czech, Turkish, Chinese (CN/TW)
 
-## Developing Addons
+## 💬 Support
 
-This plugin offers a basic API which other developers can use to add new features and provide
-support and compatibility with other plugins. BlockProt can be accessed via the
-[jitpack.io repository](https://jitpack.io/#dei2004/BlockProt).
+- **Bug Reports:** [GitHub Issues](https://github.com/dei2004/BlockProt/issues)
+- **Questions & Chat:** [Discord Server](https://discord.gg/WVy6DHScFb)
+- **Documentation:** Check the [Wiki](https://github.com/dei2004/BlockProt/wiki) (coming soon)
 
-Your `pom.xml` file may look like this:
+## 🔧 API for Developers
+
+BlockProt provides an API for developers to add features and integrations.  
+Access via [JitPack](https://jitpack.io/#dei2004/BlockProt).
+
+### Maven
 ```xml
 <repositories>
     <repository>
@@ -72,21 +74,20 @@ Your `pom.xml` file may look like this:
     <dependency>
         <groupId>com.github.dei2004.BlockProt</groupId>
         <artifactId>blockprot-spigot</artifactId>
-        <version>1.2.5</version>
+        <version>1.0.0-dei0</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
 ```
 
-Or if you're using Gradle:
+### Gradle
 ```groovy
 repositories {
     maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    // This version might be slightly outdated. See https://github.com/dei2004/BlockProt/releases.
-    compileOnly 'com.github.dei2004.BlockProt:blockprot-spigot:1.2.5'
+    compileOnly 'com.github.dei2004.BlockProt:blockprot-spigot:1.0.0-dei0'
 }
 ```
 
@@ -103,21 +104,30 @@ BlockNBTHandler handler = BlockProtAPI.getInstance().getBlockHandler(block);
 PlayerSettingsHandler playerHandler = BlockProtAPI.getInstance().getPlayerSettings(player);
 ```
 
-We also offer a variety of events that you can listen to. For an up-to-date and more detailed list, see
-[here](https://github.com/dei2004/BlockProt/tree/master/src/main/java/de/dei0/blockprot/bukkit/events).
-You can use these to block players from accessing some blocks based on custom conditions and much
-more. For even more fine grain control over events, you can write a `PluginIntegration`. A
-`PluginIntegration` is designed to be specific to a single other plugin and is only activated when
-the referenced plugin is actually loaded through Bukkit. It also provides utilities to quickly load
-a single config file and register listeners. BlockProt natively includes a plugin integration for
-Towny, which you can find
-[here](https://github.com/dei2004/BlockProt/blob/master/src/main/java/de/dei0/blockprot/bukkit/integrations/TownyIntegration.java).
-You can freely use this as an example.
+### Events
 
-## bStats
+Listen to BlockProt events for custom functionality:
+- `BlockAccessEvent` - When a player tries to access a protected block
+- `BlockAccessMenuEvent` - When a player opens the protection menu
+- `BlockLockOnPlaceEvent` - When a block is locked on placement
+
+See [events package](https://github.com/dei2004/BlockProt/tree/master/spigot/src/main/java/de/dei0/blockprot/bukkit/events) for more.
+
+### Creating Plugin Integrations
+
+Extend `PluginIntegration` for conditional integrations with other plugins:
+- Only activates when the target plugin is loaded
+- Provides utilities for config loading and event listeners
+- Examples: [TownyIntegration](https://github.com/dei2004/BlockProt/blob/master/spigot/src/main/java/de/dei0/blockprot/bukkit/integrations/TownyIntegration.java), [UltimateTeamsIntegration](https://github.com/dei2004/BlockProt/blob/master/spigot/src/main/java/de/dei0/blockprot/bukkit/integrations/UltimateTeamsIntegration.java)
+
+## 📊 Statistics
 
 [![bStats Graph](https://bstats.org/signatures/bukkit/BlockProt.svg)](https://bstats.org/plugin/bukkit/BlockProt)
 
-## License
+## 📜 License
 
-BlockProt is licensed under GPLv3 license, view `LICENSE` to learn more.
+BlockProt is licensed under **GPLv3**. See [LICENSE](LICENSE) for details.
+
+---
+
+**Maintained by [dei0 (dei2004)](https://github.com/dei2004)** • Originally by spnda
