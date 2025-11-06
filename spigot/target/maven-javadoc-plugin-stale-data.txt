@@ -1,0 +1,110 @@
+@options
+@packages
+-classpath
+'C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/common/target/blockprot-common-1.0.0-dei0.jar;C:/Users/dei/.m2/repository/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar;C:/Users/dei/.m2/repository/org/spigotmc/spigot-api/1.21.3-R0.1-SNAPSHOT/spigot-api-1.21.3-R0.1-SNAPSHOT.jar;C:/Users/dei/.m2/repository/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/dei/.m2/repository/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar;C:/Users/dei/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar;C:/Users/dei/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar;C:/Users/dei/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/dei/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:/Users/dei/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar;C:/Users/dei/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar;C:/Users/dei/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/dei/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/dei/.m2/repository/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar;C:/Users/dei/.m2/repository/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar;C:/Users/dei/.m2/repository/de/tr7zw/item-nbt-api/2.15.1/item-nbt-api-2.15.1.jar;C:/Users/dei/.m2/repository/net/wesjd/anvilgui/1.10.6-SNAPSHOT/anvilgui-1.10.6-SNAPSHOT.jar;C:/Users/dei/.m2/repository/org/enginehub/squirrelid/0.3.2/squirrelid-0.3.2.jar;C:/Users/dei/.m2/repository/com/github/TownyAdvanced/Towny/0.98.1.6/Towny-0.98.1.6.jar;C:/Users/dei/.m2/repository/me/clip/placeholderapi/2.11.6/placeholderapi-2.11.6.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar;C:/Users/dei/.m2/repository/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar;C:/Users/dei/.m2/repository/com/sk89q/worldguard/worldguard-bukkit/7.0.7/worldguard-bukkit-7.0.7.jar;C:/Users/dei/.m2/repository/com/sk89q/worldguard/worldguard-core/7.0.7/worldguard-core-7.0.7.jar;C:/Users/dei/.m2/repository/com/sk89q/worldguard/worldguard-libs/core/7.0.7/core-7.0.7.jar;C:/Users/dei/.m2/repository/com/sk89q/worldedit/worldedit-core/7.2.7/worldedit-core-7.2.7.jar;C:/Users/dei/.m2/repository/com/sk89q/worldedit/worldedit-libs/core/7.2.7/core-7.2.7.jar;C:/Users/dei/.m2/repository/org/antlr/antlr4/4.9.1/antlr4-4.9.1.jar;C:/Users/dei/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar;C:/Users/dei/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar;C:/Users/dei/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar;C:/Users/dei/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar;C:/Users/dei/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar;C:/Users/dei/.m2/repository/org/mozilla/rhino-runtime/1.7.13/rhino-runtime-1.7.13.jar;C:/Users/dei/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar;C:/Users/dei/.m2/repository/org/flywaydb/flyway-core/3.0/flyway-core-3.0.jar;C:/Users/dei/.m2/repository/com/sk89q/worldedit/worldedit-bukkit/7.2.7/worldedit-bukkit-7.2.7.jar;C:/Users/dei/.m2/repository/com/github/angeschossen/LandsAPI/6.28.11/LandsAPI-6.28.11.jar;C:/Users/dei/.m2/repository/dev/xf3d3/UltimateTeams/5.0.0/UltimateTeams-5.0.0.jar;C:/Users/dei/.m2/repository/de/themoep/inventorygui/1.6.5-SNAPSHOT/inventorygui-1.6.5-SNAPSHOT.jar;C:/Users/dei/.m2/repository/io/papermc/paperlib/1.0.8/paperlib-1.0.8.jar;C:/Users/dei/.m2/repository/com/tcoded/FoliaLib/0.5.1/FoliaLib-0.5.1.jar;C:/Users/dei/.m2/repository/co/aikar/acf-bukkit/0.5.1-SNAPSHOT/acf-bukkit-0.5.1-SNAPSHOT.jar;C:/Users/dei/.m2/repository/dev/dejvokep/boosted-yaml/1.3.1/boosted-yaml-1.3.1.jar;C:/Users/dei/.m2/repository/net/william278/annotaml/2.0.7/annotaml-2.0.7.jar;C:/Users/dei/.m2/repository/net/william278/DesertWell/2.0.4/DesertWell-2.0.4.jar;C:/Users/dei/.m2/repository/org/json/json/20230227/json-20230227.jar'
+-encoding
+'UTF-8'
+-package
+-quiet
+--release
+17
+-sourcepath
+'C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/spigot/src/main/java;C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/spigot/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/spigot/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'BlockProt Spigot 1.0.0-dei0 API'
+-use
+-version
+-windowtitle
+'BlockProt Spigot 1.0.0-dei0 API'
+de.dei0.blockprot.bukkit
+de.dei0.blockprot.bukkit.commands
+de.dei0.blockprot.bukkit.config
+de.dei0.blockprot.bukkit.events
+de.dei0.blockprot.bukkit.integrations
+de.dei0.blockprot.bukkit.inventories
+de.dei0.blockprot.bukkit.listeners
+de.dei0.blockprot.bukkit.metrics
+de.dei0.blockprot.bukkit.nbt
+de.dei0.blockprot.bukkit.nbt.stats
+de.dei0.blockprot.bukkit.tasks
+de.dei0.blockprot.bukkit.util
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\blockprot-common-1.0.0-dei0.jar = 1762410987133
+C:\Users\dei\.m2\repository\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar = 1760419164500
+C:\Users\dei\.m2\repository\org\spigotmc\spigot-api\1.21.3-R0.1-SNAPSHOT\spigot-api-1.21.3-R0.1-SNAPSHOT.jar = 1760467040834
+C:\Users\dei\.m2\repository\org\joml\joml\1.10.5\joml-1.10.5.jar = 1759972457783
+C:\Users\dei\.m2\repository\net\md-5\bungeecord-chat\1.20-R0.2\bungeecord-chat-1.20-R0.2.jar = 1759972447912
+C:\Users\dei\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar = 1759558640064
+C:\Users\dei\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar = 1761638132319
+C:\Users\dei\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar = 1759972457672
+C:\Users\dei\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1758942965889
+C:\Users\dei\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar = 1761638132778
+C:\Users\dei\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar = 1761638132612
+C:\Users\dei\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar = 1759972457693
+C:\Users\dei\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1758942966951
+C:\Users\dei\.m2\repository\org\bstats\bstats-bukkit\3.0.2\bstats-bukkit-3.0.2.jar = 1762048672114
+C:\Users\dei\.m2\repository\org\bstats\bstats-base\3.0.2\bstats-base-3.0.2.jar = 1762048672264
+C:\Users\dei\.m2\repository\de\tr7zw\item-nbt-api\2.15.1\item-nbt-api-2.15.1.jar = 1762397723139
+C:\Users\dei\.m2\repository\net\wesjd\anvilgui\1.10.6-SNAPSHOT\anvilgui-1.10.6-SNAPSHOT.jar = 1762397723033
+C:\Users\dei\.m2\repository\org\enginehub\squirrelid\0.3.2\squirrelid-0.3.2.jar = 1762397718062
+C:\Users\dei\.m2\repository\com\github\TownyAdvanced\Towny\0.98.1.6\Towny-0.98.1.6.jar = 1762397726816
+C:\Users\dei\.m2\repository\me\clip\placeholderapi\2.11.6\placeholderapi-2.11.6.jar = 1759930312225
+C:\Users\dei\.m2\repository\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar = 1759930297087
+C:\Users\dei\.m2\repository\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar = 1759930296842
+C:\Users\dei\.m2\repository\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar = 1759930297241
+C:\Users\dei\.m2\repository\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar = 1759930299532
+C:\Users\dei\.m2\repository\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar = 1759930298064
+C:\Users\dei\.m2\repository\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar = 1759930298672
+C:\Users\dei\.m2\repository\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar = 1759930298142
+C:\Users\dei\.m2\repository\com\sk89q\worldguard\worldguard-bukkit\7.0.7\worldguard-bukkit-7.0.7.jar = 1762397720317
+C:\Users\dei\.m2\repository\com\sk89q\worldguard\worldguard-core\7.0.7\worldguard-core-7.0.7.jar = 1762397720010
+C:\Users\dei\.m2\repository\com\sk89q\worldguard\worldguard-libs\core\7.0.7\core-7.0.7.jar = 1762397720076
+C:\Users\dei\.m2\repository\com\sk89q\worldedit\worldedit-core\7.2.7\worldedit-core-7.2.7.jar = 1762397720425
+C:\Users\dei\.m2\repository\com\sk89q\worldedit\worldedit-libs\core\7.2.7\core-7.2.7.jar = 1762397720361
+C:\Users\dei\.m2\repository\org\antlr\antlr4\4.9.1\antlr4-4.9.1.jar = 1762048671490
+C:\Users\dei\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar = 1762048671171
+C:\Users\dei\.m2\repository\org\antlr\ST4\4.3\ST4-4.3.jar = 1762048671527
+C:\Users\dei\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar = 1759937844707
+C:\Users\dei\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar = 1762048671983
+C:\Users\dei\.m2\repository\com\ibm\icu\icu4j\61.1\icu4j-61.1.jar = 1762048672904
+C:\Users\dei\.m2\repository\org\mozilla\rhino-runtime\1.7.13\rhino-runtime-1.7.13.jar = 1759937845035
+C:\Users\dei\.m2\repository\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar = 1762048671842
+C:\Users\dei\.m2\repository\org\flywaydb\flyway-core\3.0\flyway-core-3.0.jar = 1759558614356
+C:\Users\dei\.m2\repository\com\sk89q\worldedit\worldedit-bukkit\7.2.7\worldedit-bukkit-7.2.7.jar = 1762397720735
+C:\Users\dei\.m2\repository\com\github\angeschossen\LandsAPI\6.28.11\LandsAPI-6.28.11.jar = 1762397725561
+C:\Users\dei\.m2\repository\dev\xf3d3\UltimateTeams\5.0.0\UltimateTeams-5.0.0.jar = 1762409248288
+C:\Users\dei\.m2\repository\de\themoep\inventorygui\1.6.5-SNAPSHOT\inventorygui-1.6.5-SNAPSHOT.jar = 1761908519866
+C:\Users\dei\.m2\repository\io\papermc\paperlib\1.0.8\paperlib-1.0.8.jar = 1760110337335
+C:\Users\dei\.m2\repository\com\tcoded\FoliaLib\0.5.1\FoliaLib-0.5.1.jar = 1761908517422
+C:\Users\dei\.m2\repository\co\aikar\acf-bukkit\0.5.1-SNAPSHOT\acf-bukkit-0.5.1-SNAPSHOT.jar = 1761908507745
+C:\Users\dei\.m2\repository\dev\dejvokep\boosted-yaml\1.3.1\boosted-yaml-1.3.1.jar = 1761908501114
+C:\Users\dei\.m2\repository\net\william278\annotaml\2.0.7\annotaml-2.0.7.jar = 1761908510893
+C:\Users\dei\.m2\repository\net\william278\DesertWell\2.0.4\DesertWell-2.0.4.jar = 1761908520647
+C:\Users\dei\.m2\repository\org\json\json\20230227\json-20230227.jar = 1762409275224
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\src\main\java = 1762395285217
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\generated-sources\annotations = 1762410989100
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\allclasses-index.html = 1762411020141
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\allpackages-index.html = 1762411020146
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\constant-values.html = 1762411018811
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\deprecated-list.html = 1762411020043
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\element-list = 1762411018470
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\help-doc.html = 1762411020258
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\index-all.html = 1762411020241
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\index.html = 1762411020056
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\member-search-index.js = 1762411020158
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\module-search-index.js = 1762411020149
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\overview-summary.html = 1762411020252
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\overview-tree.html = 1762411020018
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\package-search-index.js = 1762411020151
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\search.html = 1762411020246
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\tag-search-index.js = 1762411020161
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\spigot\target\apidocs\type-search-index.js = 1762411020153

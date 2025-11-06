@@ -1,0 +1,92 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:3.6.2:javadoc] with no properties
+
+M2_HOME=C:\apache-maven-3.9.11
+MAVEN_OPTS=--enable-native-access=ALL-UNNAMED 
+JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-23.0.2.7-hotspot
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< de.dei0.blockprot:blockprot-common >-----------------
+[INFO] Building BlockProt Common 1.0.0-dei0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> javadoc:3.6.2:javadoc (default-cli) > generate-sources @ blockprot-common >>>
+[INFO] 
+[INFO] <<< javadoc:3.6.2:javadoc (default-cli) < generate-sources @ blockprot-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.6.2:javadoc (default-cli) @ blockprot-common ---
+[INFO] No previous run data found, generating javadoc.
+[WARNING] Javadoc Warnings
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\FriendModifyAction.java:22: warning: no main description
+[WARNING] * @since 0.1.16
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:24: warning: no main description
+[WARNING] * @since 1.0.0
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:26: warning: no @param for <T>
+[WARNING] public abstract class ListStatisticItem<T, R> {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:26: warning: no @param for <R>
+[WARNING] public abstract class ListStatisticItem<T, R> {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\StatisticOnClickAction.java:22: warning: no main description
+[WARNING] * @since 1.0.0
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\StatisticType.java:22: warning: no main description
+[WARNING] * @since 1.0.0
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\util\BlockProtUtil.java:29: warning: no comment
+[WARNING] public class BlockProtUtil {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\util\BlockProtUtil.java:29: warning: use of default constructor, which does not provide a comment
+[WARNING] public class BlockProtUtil {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:27: warning: no comment
+[WARNING] protected final @NotNull T value;
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:29: warning: no comment
+[WARNING] protected ListStatisticItem(@NotNull T value) {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:33: warning: no comment
+[WARNING] public @NotNull T get() {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:37: warning: no comment
+[WARNING] public abstract @NotNull R getItemType();
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\ListStatisticItem.java:39: warning: no comment
+[WARNING] public abstract String getTitle();
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\LockReturnValue.java:52: warning: no @param for success
+[WARNING] public LockReturnValue(final boolean success, @Nullable final Reason reason) {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\LockReturnValue.java:52: warning: no @param for reason
+[WARNING] public LockReturnValue(final boolean success, @Nullable final Reason reason) {
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\LockReturnValue.java:64: warning: no comment
+[WARNING] EXCEEDED_MAX_BLOCK_COUNT
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\LockReturnValue.java:63: warning: no comment
+[WARNING] NO_PERMISSION,
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\StatisticOnClickAction.java:25: warning: no comment
+[WARNING] NONE,
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\StatisticType.java:25: warning: no comment
+[WARNING] PLAYER, GLOBAL, ALL
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\StatisticType.java:25: warning: no comment
+[WARNING] PLAYER, GLOBAL, ALL
+[WARNING] ^
+[WARNING] C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java\de\dei0\blockprot\nbt\stats\StatisticType.java:25: warning: no comment
+[WARNING] PLAYER, GLOBAL, ALL
+[WARNING] ^
+[WARNING] 21 warnings
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.898 s
+[INFO] Finished at: 2025-11-06T14:36:52+08:00
+[INFO] ------------------------------------------------------------------------

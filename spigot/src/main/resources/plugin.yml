@@ -1,11 +1,11 @@
-name: BlockProt
-version: ${version}
-main: de.sean.blockprot.bukkit.BlockProt
-api-version: 1.14
-authors: [ spnda ]
+﻿name: BlockProt
+version: ${project.version}
+main: de.dei0.blockprot.bukkit.BlockProt
+api-version: 1.21
+authors: [ dei0 ]
 description: A simple block protection plugin
 prefix: BlockProt
-website: https://www.github.com/spnda/BlockProt
+website: https://www.github.com/dei2004/BlockProt
 permissions:
   blockprot.lock:
     default: true

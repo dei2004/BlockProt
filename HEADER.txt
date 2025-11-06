@@ -1,5 +1,5 @@
-Copyright (C) ${year} spnda
-This file is part of BlockProt <https://github.com/spnda/BlockProt>.
+﻿Copyright (C) ${year} dei0 (dei2004)
+This file is part of BlockProt <https://github.com/dei0 (dei2004)/BlockProt>.
 
 BlockProt is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

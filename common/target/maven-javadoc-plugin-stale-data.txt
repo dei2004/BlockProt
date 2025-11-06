@@ -1,0 +1,47 @@
+@options
+@packages
+-classpath
+'C:/Users/dei/.m2/repository/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+8
+-sourcepath
+'C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/common/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/common/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BlockProt Common 1.0.0-dei0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/dei/Downloads/Minecraft Plugins/BlockProt/common/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'BlockProt Common 1.0.0-dei0 API'
+de.dei0.blockprot.nbt
+de.dei0.blockprot.nbt.stats
+de.dei0.blockprot.util
+C:\Users\dei\.m2\repository\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar = 1760419164500
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\src\main\java = 1762395285190
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\allclasses-index.html = 1762411012099
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\allpackages-index.html = 1762411012105
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\element-list = 1762411011871
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\help-doc.html = 1762411012176
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\index-all.html = 1762411012144
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\index.html = 1762411012065
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\member-search-index.js = 1762411012119
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\module-search-index.js = 1762411012111
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\overview-summary.html = 1762411012155
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\overview-tree.html = 1762411012054
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\package-search-index.js = 1762411012114
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\search.html = 1762411012150
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\tag-search-index.js = 1762411012122
+C:\Users\dei\Downloads\Minecraft Plugins\BlockProt\common\target\site\apidocs\type-search-index.js = 1762411012116

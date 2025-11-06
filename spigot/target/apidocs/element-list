@@ -1,0 +1,12 @@
+de.dei0.blockprot.bukkit
+de.dei0.blockprot.bukkit.commands
+de.dei0.blockprot.bukkit.config
+de.dei0.blockprot.bukkit.events
+de.dei0.blockprot.bukkit.integrations
+de.dei0.blockprot.bukkit.inventories
+de.dei0.blockprot.bukkit.listeners
+de.dei0.blockprot.bukkit.metrics
+de.dei0.blockprot.bukkit.nbt
+de.dei0.blockprot.bukkit.nbt.stats
+de.dei0.blockprot.bukkit.tasks
+de.dei0.blockprot.bukkit.util
