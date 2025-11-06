@@ -41,68 +41,11 @@ cd BlockProt
 The compiled plugin will be in `spigot/target/BlockProt-*.jar`  
 See [BUILD.md](BUILD.md) for detailed build instructions.
 
-## 🌐 Translating
-
-Help us translate BlockProt into your language!
-
-- Contribute via [gitlocalize](https://gitlocalize.com/repo/6775/)
-- Or send translations on [Discord](https://discord.gg/WVy6DHScFb)
-
 **Supported Languages:** English, German, Spanish, French, Italian, Japanese, Korean, Polish, Portuguese (BR), Russian, Slovak, Czech, Turkish, Chinese (CN/TW)
 
 ## 💬 Support
 
 - **Bug Reports:** [GitHub Issues](https://github.com/dei2004/BlockProt/issues)
-- **Questions & Chat:** [Discord Server](https://discord.gg/WVy6DHScFb)
-- **Documentation:** Check the [Wiki](https://github.com/dei2004/BlockProt/wiki) (coming soon)
-
-## 🔧 API for Developers
-
-BlockProt provides an API for developers to add features and integrations.  
-Access via [JitPack](https://jitpack.io/#dei2004/BlockProt).
-
-### Maven
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-
-<dependencies>
-    <dependency>
-        <groupId>com.github.dei2004.BlockProt</groupId>
-        <artifactId>blockprot-spigot</artifactId>
-        <version>1.0.0-dei0</version>
-        <scope>provided</scope>
-    </dependency>
-</dependencies>
-```
-
-### Gradle
-```groovy
-repositories {
-    maven { url 'https://jitpack.io' }
-}
-
-dependencies {
-    compileOnly 'com.github.dei2004.BlockProt:blockprot-spigot:1.0.0-dei0'
-}
-```
-
-From here on, you're good to go. We provide an easy to use `BlockProtAPI` class and other utility methods
-to easily add new functionality, with low amount of boilerplate. In the following examples you can see how
-to use that class.
-```java
-// A BlockNBTHandler is a NBT Handler designed to lock blocks, add friends and edit other settings.
-// This handler exists on a per-block basis.
-BlockNBTHandler handler = BlockProtAPI.getInstance().getBlockHandler(block);
-
-// The PlayerSettingsHandler is made to handle settings that are commonly accessible
-// through the "/blockprot settings" command.
-PlayerSettingsHandler playerHandler = BlockProtAPI.getInstance().getPlayerSettings(player);
-```
 
 ### Events
 
@@ -120,9 +63,6 @@ Extend `PluginIntegration` for conditional integrations with other plugins:
 - Provides utilities for config loading and event listeners
 - Examples: [TownyIntegration](https://github.com/dei2004/BlockProt/blob/master/spigot/src/main/java/de/dei0/blockprot/bukkit/integrations/TownyIntegration.java), [UltimateTeamsIntegration](https://github.com/dei2004/BlockProt/blob/master/spigot/src/main/java/de/dei0/blockprot/bukkit/integrations/UltimateTeamsIntegration.java)
 
-## 📊 Statistics
-
-[![bStats Graph](https://bstats.org/signatures/bukkit/BlockProt.svg)](https://bstats.org/plugin/bukkit/BlockProt)
 
 ## 📜 License
 
